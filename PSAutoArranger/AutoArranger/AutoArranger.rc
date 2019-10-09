@@ -1,0 +1,216 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 309, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自动排布"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "待处理图片所在文件夹（包含子路径）：",IDC_STATIC,18,18,145,8
+    EDITTEXT        IDC_EDIT1,23,30,209,14,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "浏览文件夹",IDC_BUTTON1,236,30,50,15
+    CONTROL         "自动确定图片尺寸",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,54,80,10
+    GROUPBOX        "手动输入图片尺寸",IDC_STATIC,24,72,132,78
+    LTEXT           "宽度：",IDC_STATIC,48,92,25,8
+    EDITTEXT        IDC_EDIT2,78,90,48,14,ES_AUTOHSCROLL
+    LTEXT           "高度：",IDC_STATIC,48,108,25,8
+    EDITTEXT        IDC_EDIT3,78,108,48,14,ES_AUTOHSCROLL
+    LTEXT           "单位：",IDC_STATIC,48,126,25,8
+    COMBOBOX        IDC_COMBO1,78,126,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "边距",IDC_STATIC,162,72,120,78
+    LTEXT           "水平间距：",IDC_STATIC,174,90,41,8
+    EDITTEXT        IDC_EDIT4,222,88,46,14,ES_AUTOHSCROLL
+    LTEXT           "垂直间距：",IDC_STATIC,174,108,41,8
+    EDITTEXT        IDC_EDIT5,222,106,46,14,ES_AUTOHSCROLL
+    LTEXT           "单位：",IDC_STATIC,174,126,25,8
+    COMBOBOX        IDC_COMBO2,222,126,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "输出到文档：",IDC_STATIC,24,158,49,8
+    COMBOBOX        IDC_COMBO3,78,156,78,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "启动任务",IDC_StartTask,93,178,50,14
+    PUSHBUTTON      "关闭",IDC_Close,165,178,50,14
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 171, 69
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "恢复选项"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "输出到文档：",IDC_STATIC,19,19,49,8
+    COMBOBOX        IDC_COMBO1,73,18,78,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "确定",IDC_ApplyRecParams,27,42,50,14
+    PUSHBUTTON      "取消",IDC_Close,93,42,50,14
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 309, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,198,156,50,14
+    PUSHBUTTON      "取消",IDCANCEL,252,156,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON1,42,30,50,14
+    PUSHBUTTON      "Button2",IDC_BUTTON2,41,68,50,14
+    EDITTEXT        IDC_EDIT1,111,30,130,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,111,68,116,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,112,90,116,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG1 DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0xf1cf, 0xd8cb, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0xa2d3, 0xe7b4, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0xe5c0, 0xd7c3, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0xc1ba, 0xd7c3, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xf1cf, 0xd8cb, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xa2d3, 0xe7b4, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xe5c0, 0xd7c3, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xc1ba, 0xd7c3, "\000" 
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""AutoArrangerPiPL.pipl""\r\n"
+    "#include ""About.rc""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "AutoArrangerPiPL.pipl"
+#include "About.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

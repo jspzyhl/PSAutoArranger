@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common_src">
+      <UniqueIdentifier>{ba3c5762-91b1-4546-9c3e-f599db90ca74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{8aa0a769-0bb0-45c0-b8fb-4b300fde0a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b5398eaf-ce26-4f0c-a0c7-d0f634bc3494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{1cf37e32-5c66-4aa8-9ffc-8024083e6be8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\sources\DialogUtilitiesWin.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIUActionUtils.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIUFile.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIUGet.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIUSelect.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIUSuites.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIUtilities.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIUtilitiesWin.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIWinUI.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoArranger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Encap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\includes\PIUI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sources\PIDLLInstance.cpp">
+      <Filter>Common_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoArranger.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Encap.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUI.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\PIUI.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\PIUFile.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\PIUGet.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\PIUSelect.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoArranger.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AutoArrangerPiPL.r">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+</Project>
