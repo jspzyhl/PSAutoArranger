@@ -6,5 +6,4 @@ SDK版本支持Adobe Photoshsop CC 2015.5
 ## 详情
 包含两个工程：  
     AutoArranger：插件本身  
-    TaskControl：控制台程序，用于显示处理过程以及随时中止处理。  
-                 该程序需要复制到%AppData%\AutoArranger路径才能正常被调用。  
+    TaskControl：控制台程序，用于显示处理过程以及随时中止处理。 该程序需要复制到%AppData%\AutoArranger路径才能正常被调用。  
